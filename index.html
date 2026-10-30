@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="name">Cooking Projects</h1>
+            <span><p>messages:</p><p id="demo"></p></span>
+        </header>
+        <main>
+            <div id="project">
+                <h2><input type="text" id="title" placeholder="project title"></h2>
+                <p>Creator: <input type="text" id="creator" placeholder="creator's first and last name"></p>
+                <p>Date: <input type="date" id="date"></p>
+                <br>
+                    <p>Prep Time (minutes): <input type="number" id="ept" placeholder="estimated prep time" min="0"></p>
+                    <p>Total Time (minutes): <input type="number" id="ett" placeholder="estimated total time" min="0"></p>
+                <br>
+                    <h3>Ingredients</h3>
+                    <textarea id="ingredients" rows="20" cols="100" placeholder="Enter your ingredients here"></textarea>
+                <br>
+                    <h3>Directions</h3>
+                    <textarea id="directions" rows="30" cols="100" placeholder="Enter your directions here"></textarea>
+                <br>
+                    <h3>Reflection</h3>
+                    <textarea id="reflection" rows="20" cols="100" placeholder="Enter your reflection here"></textarea>
+                <br>
+                    <h3>Science of Cooking</h3>
+                    <textarea id="soc" rows="20" cols="100" placeholder="Enter your message here"></textarea>
+                <br><br><br>
+                    <input id="submit" type="button" value="Upload">
+        </main>
+        <footer>
+            <p id="credits"><span>Creator: Andrew Kirk       Year of Creation: 2026</span></p>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>

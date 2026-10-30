@@ -1,0 +1,35 @@
+:root {
+    --accentcolor: rgb(50, 101, 104);
+}
+#credits {
+    text-align: center;
+    color: var(--accentcolor);
+}
+#name {
+    text-align: center;
+    color: var(--accentcolor);
+}
+#project {
+    border: solid;
+    border-color:var(--accentcolor);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+h2 {
+    color: var(--accentcolor);
+}
+h3 {
+    color: var(--accentcolor);
+}
+p {
+    color: var(--accentcolor);
+}
+li {
+    color: var(--accentcolor);
+    column-count: 2;
+}
+input {
+    color: var(--accentcolor);
+}
